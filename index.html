@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Denis Novik</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="wrapper">
@@ -13,19 +20,19 @@
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="#Home" class="nav-link">Home</a>
+              <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#About me" class="nav-link">About me</a>
+              <a href="#about" class="nav-link">About me</a>
             </li>
             <li class="nav-item">
-              <a href="#Skills" class="nav-link">Skills</a>
+              <a href="#skills" class="nav-link">Skills</a>
             </li>
             <li class="nav-item">
-              <a href="#Portfolio" class="nav-link">Portfolio</a>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a href="#Contacts" class="nav-link">Contacts</a>
+              <a href="#contacts" class="nav-link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -35,98 +42,108 @@
         <div class="container hero">
           <section id="hero">
             <h1 class="hero-title">Denis Novik</h1>
-            <img src="./img/hero.jpg" alt="Denis Novik" />
+            <img src="./img/hero.jpg" alt="Denis Novik" width="970" />
           </section>
         </div>
 
-        <div class="container">
-          <section id="about">
-            <h2 class="title">About me</h2>
-            <p class="about-text text">
-              Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything
-              connected with it.
-            </p>
-            <p class="about-text text">
-              I'm studying at courses "Web and mobile design interfaces" in IT-Academy.
-            </p>
-            <p class="about-text text">
-              Ready to implement excellent projects with wonderful people.
-            </p>
-          </section>
-        </div>
+        <section id="about">
+          <div class="container">
+            <a href="#"><h2 class="title">About me</h2></a>
+            <div class="about-me">
+              <p class="about-text text">
+                Hi, I'm Denis – UX/UI designer from Minsk. <br />
+                I'm interested in design and everything connected with it.
+              </p>
+              <p class="about-text text">
+                I'm studying at courses "Web and mobile design <br />
+                interfaces" in IT-Academy.
+              </p>
+              <p class="about-text text bottom">
+                Ready to implement excellent projects <br />
+                with wonderful people.
+              </p>
+            </div>
+          </div>
+        </section>
 
-        <div class="container">
-          <section id="skills">
-            <h2 class="title">Skills</h2>
+        <section id="skills">
+            <a href="#"><h2 class="title">Skills</h2></a>
             <p class="skills-text text">I work in such programs as</p>
             <ul class="skills-list">
               <li class="skills-item">
-                <img src="./img/Ps.svg" alt="skill" />
-                <p class="skills-text">Adobe Photoshop</p>
-                <img src="./img/star-black.svg" alt="stars" />
-                <img src="./img/star-black.svg" alt="stars" />
-                <img src="./img/star-grey.svg" alt="stars" />
-                <img src="./img/star-grey.svg" alt="stars" />
-                <img src="./img/star-grey.svg" alt="stars" />
+                    <img src="./img/Ps.svg" alt="skill" />
+                    <p class="skills-text">
+                      Adobe <br />
+                      Photoshop
+                    </p>
+                                       <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-grey.svg" alt="stars" />
+                    <img src="./img/star-grey.svg" alt="stars" />
+                    <img src="./img/star-grey.svg" alt="stars" />
               </li>
               <li class="skills-item">
-                <img src="./img/Ai.svg" alt="skill" />
-                <p class="skills-text">Adobe Illustrator</p>
-                <img src="./img/star-black.svg" alt="stars" />
-                <img src="./img/star-black.svg" alt="stars" />
-
-                <img src="./img/star-black.svg" alt="stars" />
-
-                <img src="./img/star-grey.svg" alt="stars" />
-                <img src="./img/star-grey.svg" alt="stars" />
+                    <img src="./img/Ai.svg" alt="skill" />
+                    <p class="skills-text">
+                      Adobe <br />
+                      Illustrator
+                    </p>
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-grey.svg" alt="stars" />
+                    <img src="./img/star-grey.svg" alt="stars" />
               </li>
               <li class="skills-item">
-                <img src="./img/Ae.svg" alt="skill" />
-                <p class="skills-text">Adobe After Effects</p>
-                <img src="./img/star-black.svg" alt="stars" />
-                <img src="./img/star-black.svg" alt="stars" />
-                <img src="./img/star-black.svg" alt="stars" />
-                <img src="./img/star-grey.svg" alt="stars" />
-                <img src="./img/star-grey.svg" alt="stars" />
+                    <img src="./img/Ae.svg" alt="skill" />
+                    <p class="skills-text">
+                      Adobe <br />
+                      After Effects
+                    </p>
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-grey.svg" alt="stars" />
               </li>
               <li class="skills-item">
-                <img src="./img/Figma.svg" alt="skill" />
-                <p class="skills-text">Figma</p>
-                <img src="./img/star-black.svg" alt="stars" />
-                <img src="./img/star-black.svg" alt="stars" />
-                <img src="./img/star-black.svg" alt="stars" />
-                <img src="./img/star-black.svg" alt="stars" />
-                <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/Figma.svg" alt="skill" />
+                    <p class="skills-text figma">Figma</p>
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-black.svg" alt="stars" />
+                    <img src="./img/star-black.svg" alt="stars" />
               </li>
             </ul>
-          </section>
-        </div>
+          </div>
+        </section>
 
-        <div class="container">
-          <section id="portfolio">
-            <h2 class="title">Portfolio</h2>
+        <section id="portfolio">
+          <div class="container">
+            <a href="#"><h2 class="title">Portfolio</h2></a>
 
             <figure>
               <img src="./img/Fashion-Store.jpg" alt="fashion" />
-              <figcaption>Online fashion store - Homepage</figcaption>
+              <figcaption class="text">Online fashion store - Homepage</figcaption>
             </figure>
 
             <figure>
               <img src="./img/reebok.jpg" alt="reebok" />
-              <figcaption>Reebok Store - Concept</figcaption>
+              <figcaption class="text">Reebok Store - Concept</figcaption>
             </figure>
 
             <figure>
               <img src="./img/braun.jpg" alt="braun" />
-              <figcaption>Braun Landing Page - Concept</figcaption>
+              <figcaption class="text">Braun Landing Page - Concept</figcaption>
             </figure>
-          </section>
-        </div>
+          </div>
+        </section>
       </main>
 
-      <footer class="footer container">
-        <h2 class="footer-title">Contacts</h2>
-        <p class="footer-text">Want to know more or just chat? You are welcome!</p>
+      <footer id="contacts" class="footer container">
+        <a href="#"><h2 class="footer-title">Contacts</h2></a>
+        <p class="footer-text text">Want to know more or just chat? You are welcome!</p>
         <button type="button">
           <a href="#">Send message</a>
         </button>
