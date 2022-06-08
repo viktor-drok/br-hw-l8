@@ -30,8 +30,8 @@ main {
 
 /* ---------------------- */
 
-.nav-list {
-  display: flex;
+.nav-item {
+  display: inline-block;
 }
 
 .nav-list li {
@@ -82,8 +82,8 @@ main {
   background: #f6f6f6;
   text-align: center;
 }
-#about a {
-  border-style: none;
+#about h2.title {
+  margin: 100px 385px 50px 385px;
 }
 
 .title {
@@ -116,3 +116,141 @@ main {
 }
 
 /* ---------------------- */
+
+#skills .title {
+  margin: 100px 425px 20px 425px;
+}
+
+#skills ul {
+  display: flex;
+}
+#skills .text {
+  margin: 0 0 50px 0;
+}
+
+#skills .skills-text .text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #828282;
+}
+
+#skills li {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: center;
+
+  margin: 0 87px 0 0;
+}
+
+#skills li:last-child {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars img {
+  width: 26px;
+  height: 26px;
+}
+
+.stars img {
+  margin: 0 10px 0 0;
+}
+
+.skills-text {
+  margin: 25px 0 60px 0;
+}
+
+.figma {
+  margin: 25px 0 79px 0;
+}
+ul.skills-list {
+  margin-bottom: 100px;
+}
+
+/* ---------------------- */
+
+#portfolio {
+  background: #f6f6f6;
+}
+
+.container .title {
+  margin: 100px 410px 50px 410px;
+}
+
+figcaption.text {
+  text-decoration-line: underline;
+  margin: 40px 385px 70px 385px;
+}
+
+.braun {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #070707;
+  text-decoration-line: underline;
+  margin: 40px 355px 100px 355px;
+}
+
+/* -------------------------- */
+
+.footer-title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  color: #070707;
+  margin: 100px 410px 20px 410px;
+}
+
+footer p.text {
+  margin: 0 345px 60px 345px;
+}
+
+button {
+  width: 180px;
+  height: 44px;
+  background: #070707;
+  border-radius: 22px;
+  margin: 0 395px 30px 395px;
+}
+button a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+ul.social-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 330px 60px 330px;
+}
+
+footer p:last-of-type {
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #828282;
+  margin: 0 385px 100px 385px;
+}
