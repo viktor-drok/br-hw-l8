@@ -12,7 +12,7 @@
 }
 
 .container {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   margin: 0px auto;
 }
@@ -44,6 +44,8 @@ main {
 
 .header {
   margin: 27.5px auto;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 .nav-link {
@@ -58,6 +60,14 @@ main {
 
 .nav-link:visited {
   color: #828282;
+}
+
+.header.container {
+  width: 100%;
+  border-bottom: 1px solid #828282;
+}
+.nav {
+  display: inline-flex;
 }
 
 /* ------------------------- */
@@ -160,7 +170,7 @@ main {
   height: 26px;
 }
 
-.stars img {
+.stars img:not(:last-child) {
   margin: 0 10px 0 0;
 }
 
